@@ -1,0 +1,21 @@
+
+program pro rekurzivni zalohovani adresaru pro dos-box
+program je napsany v lua 5.3.5 pro ms-dos
+vsechny soubory potrebne pro spusteni nakopirovat do adresare
+ktery je v systemovy prommeny PATH  aby byl spustitelny odkudkoliv
+zadanim prikazu z prikazoveho radku adresarove strukture
+
+pak se prepnout do adresare ve kterem jsou dalsi podadresare
+co podadresar to hra apod.
+backard.bat vytvori v aktualnim adresari davku pro zapakovani vsech slozek
+co slozka to samostatny archiv *.arj se soubory v aktualnim adresari program
+nepracuje a ignoruje je zajimaji ho pouze slozky
+
+backadrr.bat dela uplne to same akorat ze na zacatek kazdeho radku
+prida retezec "REM"
+takze potom lze vznikli soubor editovat dle libosti a bybrat si co chci
+a co nechci
+
+
+
+
